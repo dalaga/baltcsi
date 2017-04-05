@@ -1,6 +1,6 @@
 FusionTable-Map-Checkboxes
 ==========================
-Demo at https://dalaga.github.io/ANC7E06_Service_Codes/
+Demo at https://github.com/dalaga/baltcsi.git
 
 Use this Google Fusion Tables template if you wish to:
 - Create a point map with a textual legend (such as Preschool, Pre-K, Homecare), rather than a numeric legend (such as 0-100). If you only need a numeric legend, then use the Google Fusion Tables built-in Automatic Legend feature, which works for point maps (using buckets) or polygon maps (using buckets or gradients), but only if data is numerical. See more at https://support.google.com/fusiontables/answer/185991
