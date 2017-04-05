@@ -1,0 +1,37 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a { color: #4B58A6; }
+a:hover { color: #4B58A6; }
+h1 { color: #4b58a6; font-size: 26px; font-weight: normal; line-height: 1.08; margin-bottom: 0.1em; margin-top: 0.3em; width: 65.5%; }
+
+
+#map_canvas { height: 80%; width:100%; }
+#map_canvas img { float: right; padding-bottom: 8px; }
+#map_canvas h5 { clear: both; }
+
+.filter-box {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+.content-primary { float: right; padding-left: 10px; width: 70%; height: 95%; }
+.content-secondary { float: left; width: 28%; }
+
+.filter-yellow { background-color: #FBF358; }
+.filter-green { background-color: #00E13C; }
+.filter-blue { background-color: #5781FC; }
+.filter-purple { background-color: #7C54FB; }
+.filter-red { background-color: #FB6353; }
+
+canvas {-ms-touch-action: double-tap-zoom;}
