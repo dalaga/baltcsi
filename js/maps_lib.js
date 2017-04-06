@@ -93,17 +93,23 @@ var MapsLib = {
 
     //---MODIFY column header and values below to match your Google Fusion Table AND index.html
     //-- TEXTUAL OPTION to display legend and filter by non-numerical data in your table
-    var type_column = "'District'";  // -- note use of single & double quotes for two-word column header
+    var type_column = "'Offense'";  // -- note use of single & double quotes for two-word column header
     var tempWhereClause = [];
-    if ( $("#cbType1").is(':checked')) tempWhereClause.push("Central");
-    if ( $("#cbType2").is(':checked')) tempWhereClause.push("Eastern");
-    if ( $("#cbType3").is(':checked')) tempWhereClause.push("Northeast");
-    if ( $("#cbType4").is(':checked')) tempWhereClause.push("Northern");
-    if ( $("#cbType5").is(':checked')) tempWhereClause.push("Northwest");
-    if ( $("#cbType6").is(':checked')) tempWhereClause.push("Southeast");
-    if ( $("#cbType7").is(':checked')) tempWhereClause.push("Southwest");
-    if ( $("#cbType8").is(':checked')) tempWhereClause.push("Western");
-
+    if ( $("#cbType1").is(':checked')) tempWhereClause.push("1");
+    if ( $("#cbType2").is(':checked')) tempWhereClause.push("3");
+    if ( $("#cbType3").is(':checked')) tempWhereClause.push("5");
+    if ( $("#cbType4").is(':checked')) tempWhereClause.push("6");
+    if ( $("#cbType5").is(':checked')) tempWhereClause.push("7");
+    if ( $("#cbType6").is(':checked')) tempWhereClause.push("11");
+    if ( $("#cbType7").is(':checked')) tempWhereClause.push("17");
+    if ( $("#cbType8").is(':checked')) tempWhereClause.push("17A");
+    if ( $("#cbType9").is(':checked')) tempWhereClause.push("17I");
+    if ( $("#cbType10").is(':checked')) tempWhereClause.push("2CA");
+    if ( $("#cbType11").is(':checked')) tempWhereClause.push("3A");
+    if ( $("#cbType12").is(':checked')) tempWhereClause.push("3J");
+    if ( $("#cbType13").is(':checked')) tempWhereClause.push("7D");
+    if ( $("#cbType14").is(':checked')) tempWhereClause.push("7S");
+    if ( $("#cbType15").is(':checked')) tempWhereClause.push("7SA");
 
     whereClause += " AND " + type_column + " IN ('" + tempWhereClause.join("','") + "')";
 
