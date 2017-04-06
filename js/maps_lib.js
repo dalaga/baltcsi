@@ -35,7 +35,7 @@ var MapsLib = {
   locationColumn:     "Location",
 
   map_centroid:       new google.maps.LatLng(39.290531, -76.613621), //MODIFY center that your map defaults to
-  locationScope:      "mh",      //MODIFY geographical area appended to all address searches
+  locationScope:      "balt",      //MODIFY geographical area appended to all address searches
   recordName:         "result",       //for showing number of results
   recordNamePlural:   "results",
 
@@ -93,7 +93,7 @@ var MapsLib = {
 
     //---MODIFY column header and values below to match your Google Fusion Table AND index.html
     //-- TEXTUAL OPTION to display legend and filter by non-numerical data in your table
-    var type_column = "'Service Code'";  // -- note use of single & double quotes for two-word column header
+    var type_column = "'District'";  // -- note use of single & double quotes for two-word column header
     var tempWhereClause = [];
     if ( $("#cbType1").is(':checked')) tempWhereClause.push("Central");
     if ( $("#cbType2").is(':checked')) tempWhereClause.push("Eastern");
