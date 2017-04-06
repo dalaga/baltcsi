@@ -33,5 +33,9 @@ h1 { color: #4b58a6; font-size: 26px; font-weight: normal; line-height: 1.08; ma
 .filter-blue { background-color: #5781FC; }
 .filter-purple { background-color: #7C54FB; }
 .filter-red { background-color: #FB6353; }
+.filter-pink{ background-color: #FF99BB; }
+.filter-ltblue{ background-color: #ccf4ff; }
+.filter-brtgreen{ background-color: #00B23B; }
+
 
 canvas {-ms-touch-action: double-tap-zoom;}
